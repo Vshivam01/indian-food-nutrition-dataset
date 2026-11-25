@@ -1,0 +1,32 @@
+{
+  "upload_type": "dataset",
+  "title": "Indian Food Nutrition Dataset: 63 Dishes, Recipe-Level, USDA-Sourced",
+  "creators": [
+    {
+      "name": "Verma, Shivam",
+      "affiliation": "Katori"
+    }
+  ],
+  "description": "<p>Calories, protein, carbohydrate and fat for 63 common Indian dishes, in 128 rows: the home version of every dish, plus restaurant and dhaba versions where the kitchen changes the dish. Each row is a stated recipe in grams, valued ingredient by ingredient from USDA FoodData Central, with the USDA record IDs listed so every figure can be checked. IFCT 2017 (ICMR-National Institute of Nutrition) is used as a cross reference.</p><p>Published figures for Indian dishes disagree widely because almost none state a recipe or a serving weight. This dataset states both. Servings are given in grams, and dals and curries are counted by the katori (150 ml), the small thali bowl.</p><p>Columns: dish, slug, family, preparation, serving, serving_g, serving_ml, kcal, protein_g, carbs_g, fat_g, kcal_per_100g, protein_g_per_100g, carbs_g_per_100g, fat_g_per_100g, fdc_ids, confidence, updated, url.</p><p>Known limits: these are recipe estimates, not lab measurements of plates. One recipe stands for each preparation. USDA values are mostly for US ingredients. The confidence label is a judgement of how well the recipe is anchored, not a statistical interval. Not medical or dietary advice.</p><p>Source and updates: <a href=\"https://getkatori.com/data\">https://getkatori.com/data</a> (the dish pages show every recipe; every change is logged in a public corrections log).</p><p>Credit: Katori Indian food nutrition dataset, getkatori.com/data (CC BY 4.0)</p>",
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "version": "2026.11.17",
+  "keywords": [
+    "india",
+    "food",
+    "nutrition",
+    "calories",
+    "south asian",
+    "usda",
+    "recipes",
+    "health",
+    "tabular"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://getkatori.com/data",
+      "relation": "isIdenticalTo",
+      "resource_type": "dataset"
+    }
+  ]
+}
